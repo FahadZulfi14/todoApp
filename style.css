@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: mediumslateblue;
+    color: white;
+    font-family: sans-serif;
+    min-height: 100vh;
+
+}
+
+header {
+    font-size: 1.5rem;
+
+}
+
+header,
+div {
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div input,
+div button {
+    padding: 0.5rem;
+    /* padding-left: 0.5rem; */
+    font-size: 1.8rem;
+    border: none;
+    background: white;
+    border-radius: 2rem;
+}
+
+div button {
+    color: rgb(255, 200, 0);
+    background: white;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    margin-left: 0.5rem;
+
+}
+
+div button:hover {
+    color: white;
+    background: rgb(255, 200, 0);
+
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.list {
+    min-width: 30%;
+    list-style: none;
+
+}
+
+.list li {
+    margin-bottom: 10px;
+
+}
